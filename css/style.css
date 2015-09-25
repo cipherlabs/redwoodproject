@@ -1447,10 +1447,12 @@ video {
   .global-footer a:hover {
     color: #fff;
     text-decoration: none; }
-  .global-footer .copyright h4 {
-    color: #3DC9B2;
-    text-align: left;
-    padding-left: 20px; }
+  .global-footer .copyright {
+    padding-bottom: 20px; }
+    .global-footer .copyright h4 {
+      color: #3DC9B2;
+      text-align: left;
+      padding-left: 20px; }
   .global-footer p {
     font-size: 22px; }
 
@@ -1540,6 +1542,8 @@ video {
 /* Popup */
 .modal {
   padding: 0 25px !important; }
+  .modal h3 {
+    color: #fff; }
 
 .modal-dialog {
   width: 100%;

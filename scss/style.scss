@@ -1455,7 +1455,7 @@ width: -webkit-calc(100% / 2);
    li{list-style:none;text-align:left;color:grey;}   
    a{color:$c2_c;font-size:16px;}
    a:hover{ color:#fff; text-decoration:none; }
-   .copyright {
+   .copyright {padding-bottom: 20px;
     h4 { color: $c2_c; text-align: left; padding-left: 20px;}
   	}
    p {font-size: 22px;}
@@ -1557,9 +1557,7 @@ width: -webkit-calc(100% / 2);
 }
 
 /* Popup */
-.modal {
-	padding: 0 25px !important;
-}
+.modal { padding: 0 25px !important; h3 { color: #fff; }}
 
 .modal-dialog {
 	width: 100%;
