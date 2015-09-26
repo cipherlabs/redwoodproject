@@ -446,6 +446,21 @@ input:focus {
 .navbar-inverse .navbar-toggle {
   margin-top: 15px; }
 
+.school_header {
+  height: 100%; }
+
+.school_landing {
+  margin-top: 150px; }
+  .school_landing h1 {
+    padding: 100px 50px;
+    text-align: right;
+    font-size: 40px;
+    line-height: 60px; }
+  .school_landing .video {
+    padding: 50px 0; }
+    .school_landing .video iframe {
+      padding: 50px; }
+
 /*----  SECTION:  HOME > INTRO AND SHORT MSGS   ----*/
 .video-overlay {
   position: absolute;
@@ -531,7 +546,7 @@ video {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-.focus-box h5, .focus-box h2 {
+.focus-box h5, .focus-box h1 {
   margin-bottom: 15px;
   color: #404040;
   position: relative;
@@ -540,7 +555,7 @@ video {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 17px; }
-  .focus-box h5 h2, .focus-box h2 h2 {
+  .focus-box h5 h2, .focus-box h1 h2 {
     font-size: 34px; }
 
 .focus-box p {
@@ -548,6 +563,30 @@ video {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   padding: 20px; }
+  .focus-box p.no_justify {
+    text-align: left; }
+
+.focus-box-schools p, .focus-box-schools p:hover {
+  text-align: left;
+  padding: 50px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 300;
+  color: black; }
+
+.focus-box-schools h3 {
+  padding: 50px 0; }
+
+.focus-box a {
+  text-decoration: none;
+  color: #404040; }
+
+.schools_news {
+  background: #777;
+  padding: 100px 0; }
+  .schools_news img {
+    width: 50%;
+    padding: 10px; }
 
 /*----OTHER FOCUSES ----*/
 .other-focuses {

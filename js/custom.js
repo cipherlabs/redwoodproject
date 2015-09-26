@@ -1,20 +1,8 @@
   /* ================================
 ===  BACKGROUND SLIDER        ====
 ================================= */
-$.vegas('slideshow', {
-  delay:7000,
-  backgrounds:[
-    { src:'images/backgrounds/bg1.jpg', fade:1000 },
-    { src:'images/backgrounds/bg2.jpg', fade:1000 },
-    { src:'images/backgrounds/bg3.jpg', fade:1000 },
-    { src:'images/backgrounds/bg4.jpg', fade:1000 }    
-  ]
-});
-var mainbottom = $('#main-nav').offset().top + $('#main-nav').height();
-
-// // on scroll, 
+var mainbottom = $('#main-nav').offset().top + $('#main-nav').height();// // on scroll, 
 $(window).on('scroll',function(){
-
     // we round here to reduce a little workload
     stop = Math.round($(window).scrollTop());
     if (stop > mainbottom) {
@@ -167,53 +155,13 @@ $("#contact-form").submit(function (e) {
 });
 
 
-/* ================================
-===  PROJECT LOADING           ====
-================================= */
-
-jQuery(document).ready(function($) {
-    $('.more').on('click', function(event) {
-        event.preventDefault();
-
-        var href = $(this).attr('href') + ' .single-project',
-            portfolioList = $('#portfolio-list'),
-            content = $('#loaded-content');
-
-        portfolioList.animate({'marginLeft':'-120%'},{duration:400,queue:false});
-        portfolioList.fadeOut(400);
-        setTimeout(function(){ $('#loader').show(); },400);
-        setTimeout(function(){
-            content.load(href, function() {
-                $('#loaded-content meta').remove();
-                $('#loader').hide();
-                content.fadeIn(600);
-                $('#back-button').fadeIn(600);
-            });
-        },800);
-
-    });
-
-    $('#back-button').on('click', function(event) {
-        event.preventDefault();
-
-        var portfolioList = $('#portfolio-list')
-            content = $('#loaded-content');
-
-        content.fadeOut(400);
-        $('#back-button').fadeOut(400);
-        setTimeout(function(){
-            portfolioList.animate({'marginLeft':'0'},{duration:400,queue:false});
-            portfolioList.fadeIn(600);
-        },800);
-    });
-});
 
 /* ================================
 ===  PARALLAX                  ====
 ================================= */
 $(document).ready(function(){
   var $window = $(window);
-  $('div[data-type="background"], header[data-type="background"], section[data-type="background"]').each(function(){
+  $('div[data-type="background"], header[data-type="background"]').each(function(){
     var $bgobj = $(this);
     $(window).scroll(function() {
       var yPos = -($window.scrollTop() / $bgobj.data('speed'));
@@ -224,45 +172,6 @@ $(document).ready(function(){
     });
   });
 });
-
-/* ================================
-===  KNOB                      ====
-================================= */
-$(function() {
-$(".skill1").knob({
-                'max':100,
-                'width': 64,
-                'readOnly':true,
-                'inputColor':' #FFFFFF ',
-                'bgColor':' #222222 ',
-                'fgColor':' #e96656 '
-                });
-$(".skill2").knob({
-                'max':100,
-                'width': 64,
-                'readOnly':true,
-                'inputColor':' #FFFFFF ',
-                'bgColor':' #222222 ',
-                'fgColor':' #34d293 '
-                });
-  $(".skill3").knob({
-                'max': 100,
-                'width': 64,
-                'readOnly': true,
-                'inputColor':' #FFFFFF ',
-                'bgColor':' #222222 ',
-                'fgColor':' #3ab0e2 '
-                });
-  $(".skill4").knob({
-                'max': 100,
-                'width': 64,
-                'readOnly': true,
-                'inputColor':' #FFFFFF ',
-                'bgColor':' #222222 ',
-                'fgColor':' #E7AC44 '
-                });
-});
-
 
 
 /* =================================
