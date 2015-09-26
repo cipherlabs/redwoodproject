@@ -350,10 +350,11 @@ input:focus {
 }
 .section-header h3 {
 	padding-bottom: 10px;
-	line-height: 60px;
+	line-height: 40px;
 	position: relative;
-	font-size: 40px;
+	font-size: 35px;
 	display: inline-block;
+	font-family: $header; 
 }
 .section-header h5 { padding: 50px 0 0 0; max-width: 600px; display: block; margin: 0 auto; text-align: justify; } 
 .section-header h6 {
@@ -484,7 +485,7 @@ video {
 .focus {
 	padding-bottom: 100px;
 	overflow: hidden;
-	background: #FFFFFF;
+	background: #FFFFFF; 
 }
 /* FOCUS BOX */
 .focus-box {
