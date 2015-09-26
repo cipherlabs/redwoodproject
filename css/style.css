@@ -56,7 +56,7 @@ li {
   color: #FFF; }
 
 a {
-  color: #F94C60;
+  color: #FF954D;
   -webkit-transition: all 200ms;
   transition: all 200ms; }
 
@@ -64,12 +64,12 @@ a, a:hover {
   text-decoration: none; }
 
 a:hover {
-  color: #cb4332; }
+  color: #F94C60; }
 
 p {
   margin: 0;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 25px;
   font-weight: 300; }
 
 .full-width {
@@ -115,7 +115,7 @@ h6 {
 -----------------------------------------*/
 .buttons {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   margin-top: 45px; }
 
 .button {
@@ -301,7 +301,7 @@ input:focus {
   outline: 1 !important;
   outline-color: #F94C60 !important;
   -webkit-appearance: none;
-  border: none !important;
+  border: none;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
 
@@ -354,16 +354,15 @@ input:focus {
   height: 550px;
   display: block; }
 
-.down_button a {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
 .down_button i {
   display: block;
   font-size: 50px;
   color: #fff;
   animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite; }
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transition: all 200ms;
+  transition: all 200ms; }
   .down_button i:hover {
     color: #3DC9B2;
     cursor: pointer; }
@@ -755,7 +754,7 @@ video {
 .about-us p {
   text-align: left;
   color: #f3f3f3;
-  padding: 10px; }
+  padding: 5px 10px; }
 
 .about-us .column {
   margin-bottom: 78px; }
@@ -914,6 +913,8 @@ video {
   height: 100%;
   -webkit-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out; }
+  .team-member:hover .details p {
+    line-height: 20px; }
 
 .team-member .profile-pic {
   border-radius: 50%;
@@ -1562,12 +1563,18 @@ video {
   width: 100%;
   max-width: 560px;
   margin: 0 auto; }
+  .modal-dialog.full_modal {
+    height: 100%; }
 
 .modal-popup {
   position: relative;
   padding: 45px 30px;
   text-align: center;
   background: url("../images/popup.jpg");
+  box-shadow: none;
+  border-radius: 2px; }
+
+.modal-popup-2 {
   box-shadow: none;
   border-radius: 2px; }
 
