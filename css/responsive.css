@@ -140,12 +140,12 @@
         margin-bottom: 20px;
     }
 }
-@media (max-width: 1067px) {
+@media (max-width: 977px) {
 	video {
 		display: none;
 	}
 }
-@media (max-width: 1067px) {
+@media (max-width: 977px) {
 	.header {
 		background-image: url(../images/backgrounds/redwood_landing.jpg);
 		background-size: cover;
