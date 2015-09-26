@@ -9,6 +9,7 @@ GLOBAL STYLES
 -----------------------------------------*/
 
 $copy: 'Lato', sans-serif;
+$header: 'Montserrat', helvetica;
 html {
     
     font-size: 100%;        
@@ -344,10 +345,7 @@ input:focus {
 	display: block;
 }
 .section-header h2 {
-	padding-bottom: 10px;
-	line-height: 60px;
-	position: relative;
-	display: inline-block;
+	padding-bottom: 10px; line-height: 60px; position: relative; display: inline-block; font-family: $header;
 }
 .section-header h3 {
 	padding-bottom: 10px;
@@ -415,11 +413,8 @@ input:focus {
 	padding: 0;
 	line-height: 35px;
 }
-.navbar-brand {
-	height: 76px;
-	position: relative;
-	line-height: 45px;
-	padding-top: 23px;
+.navbar-brand { position: relative; line-height: 45px; margin-top: -7px;
+	.logo { width: 70px; }
 }
 .current a {
 	color: $c1 !important;
@@ -441,16 +436,9 @@ input:focus {
 	color: $c1;
 	outline: none;
 }
-.navbar-toggle {
-	border: 0;
-	background-color: #808080;
-        margin-top: 23px;
-}
-.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
-	background-color: $c3;
-	filter: alpha(opacity=100);
-	opacity: 1;
-}
+.navbar-toggle { border: 0; background-color: #808080; }
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus { background-color: $c3;filter: alpha(opacity=100);opacity: 1;}
+.navbar-inverse .navbar-toggle { margin-top: 15px; }
 
 /*----  SECTION:  HOME > INTRO AND SHORT MSGS   ----*/
 
@@ -469,17 +457,7 @@ video {
 	border: none;
 }
 
-.intro {
-	text-align: center;
-	color: #FFF;
-	border: 5px solid #fff;
-	padding: 20px;
-	margin: 15% auto 0;
-	line-height: 65px;
-	z-index: 0;
-	width: 40%;
-	display: block;
-}
+.intro { text-align: center;color: #FFF;border: 5px solid #fff;padding: 20px;margin: 15% auto 0;line-height: 65px;z-index: 0;width: 40%;display: block;}
 
 /* Short Messages */
 .bottom-message-section {
@@ -599,18 +577,9 @@ video {
  **   SECTION:  SEPARATOR ONE         -----
 -----------------------------------------*/
 
-.separator-one {
-	background: rgba(52, 210, 147, 0.8);
-	padding: 100px 0 100px 0;
-}
+.separator-one { background: rgba(52, 210, 147, 0.8); padding: 100px 0 100px 0;}
 .separator-one .text {
-	color: #FFF;
-	line-height: 100px;
-	padding-left: 20px;
-	max-width: 800px;
-	margin-bottom: 20px;
-	text-align: left;
-}
+	color: #FFF; line-height: 100px;padding-left: 20px;max-width: 800px;margin-bottom: 20px;text-align: left; font-family: $header;}
 
 /*---------------------------------------
  **   SECTION:  PORTFOLIO          -----
@@ -884,27 +853,12 @@ width: -webkit-calc(100% / 2);
  **   SECTION:  STATS                 -----
 -----------------------------------------*/
 
-.stats {
-	background: rgba(0, 0, 0, 0.5);
-	padding: 100px 0 0 0 !important;
-	clear: both;
-}
+.stats { background: rgba(0, 0, 0, 0.5); padding: 100px 0 0 0 !important; clear: both; }
 .stat { margin-bottom: 40px;}
 .stat .icon-top { font-size: 70px; height: 80px; line-height: 80px; color: $c2}
-.stat .stat-text {
-	display: inline-block;
-	position: relative;
-}
-.stat h3 {
-	margin-top: 20px;
-	padding-bottom: 5px;
-	position: relative;
-	display: inline-block;
-}
-.stat h6 {
-	color: #d1d1d1;
-	margin-top: 15px;
-}
+.stat .stat-text { display: inline-block; position: relative; }
+.stat h3 { margin-top: 20px; padding-bottom: 5px; position: relative; display: inline-block; font-family: $header; }
+.stat h6 { color: #d1d1d1; margin-top: 15px; }
 
 /*---------------------------------------
  **   SECTION:  OUR TEAM              -----
@@ -915,13 +869,7 @@ width: -webkit-calc(100% / 2);
 	padding-top: 100px;
 	background: #FFFFFF;
 }
-.team-member {
-	border-radius: 4px;
-	overflow: hidden;
-	position: relative;
-	margin-bottom: 35px;
-	min-height: 360px;	
-}
+.team-member {border-radius: 4px;overflow: hidden;position: relative;margin-bottom: 35px;min-height: 360px;	}
 .team-member .details {
 	text-align: left;
 	font-size: 13px;
@@ -1130,9 +1078,7 @@ width: -webkit-calc(100% / 2);
 **   SECTION:  PRODUCTS             -----
 -----------------------------------------*/
 
-.products {
-	background: url(../images/product-bg.png) 50% 0 repeat;
-}
+.products { background: url(../images/product-bg.png) 50% 0 repeat; }
 .products .color-overlay {
 	background: $c2_transp;	margin-top: -100px; padding-top: 100px; padding-bottom: 70px; }
 .stats .color-overlay { background: $c1_transp; margin-top: -100px; padding-top: 100px; padding-bottom: 70px;}
@@ -1345,11 +1291,7 @@ width: -webkit-calc(100% / 2);
 	height: 73px;
 	position: relative;
 }
-.feedback-box .quote {
-	float: left;
-	font-size: 45px;
-	line-height: 80px;
-}
+.icon_small { float: left; font-size: 45px; line-height: 80px; &.center { float: none; text-align: center; } }
 .feedback-box .client-info {
 	float: left;
 	margin-left: 18px;
@@ -1438,9 +1380,8 @@ width: -webkit-calc(100% / 2);
 .footer_cta { background: #444444; padding: 50px 0 100px;}
 .company-details { color: $light_text; padding-top: 67px; padding-bottom: 67px; }
 .company-details .icon-top { font-size: 30px; margin-bottom: 10px; }
-.social li { display: inline-block; margin: 15px; border: 2px solid $light_text; border-radius: 50%; width: 75px; height: 75px; }
+.social li { display: inline-block; margin: 15px; border: 2px solid $light_text; border-radius: 50%; width: 75px; height: 75px; cursor: pointer; &:hover { background: white; a {color: $c1; } } }
 .social li a { color: $light_text; font-size: 40px; i { line-height: 75px; vertical-align: middle; }}
-.social li a:hover { color: $c1; }
 #footer {
   background: #2C3840;
   h2 {
@@ -1457,6 +1398,7 @@ width: -webkit-calc(100% / 2);
    a:hover{ color:#fff; text-decoration:none; }
    .copyright {padding-bottom: 20px;
     h4 { color: $c2_c; text-align: left; padding-left: 20px;}
+  	p { font-size: 15px; }	
   	}
    p {font-size: 22px;}
 }

@@ -1,3 +1,6 @@
+@media (min-width: 1025px) and (max-width: 1199px) {
+	.team-member { min-height: 450px; }
+}
 @media (min-width: 992px) and (max-width: 1024px) {
      .navbar-right {
         float: none !important;
@@ -161,6 +164,7 @@
 		display: inline-block;
 		margin-bottom: 0;
 	}
+.navbar-brand	.logo { width: 60px; }	
     /* HOME */
 	.header {
 		min-height: inherit;
@@ -176,6 +180,7 @@
 	    margin-top: 30%;
 		line-height: 3.438rem !important;
 		font-size: 2.813rem;
+		width: 60%;
 	}
       
       /* ABOUT US */
@@ -183,7 +188,7 @@
 		text-align: center !important;
 		font-size: 8vw !important;
 	}
-
+	
 	.about-us .column {
 		margin-bottom: 40px;
 	}
@@ -244,12 +249,13 @@
 	.focus h3 {
 			font-size: 20px;
 	}
+.navbar-brand	.logo { width: 50px; }		
 	.intro {
 		margin-top: 40%;
 		line-height: 3.438rem !important;
 		font-size: 2.213rem;
 	}
-    
+.team-member { min-height: 400px; }
     .focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
 	padding-top: 60px;
 }
@@ -285,8 +291,8 @@
     html {
         font-size: 62.5%;
     }
-    
-    
+.team-member { min-height: 450px; }
+.navbar-brand	.logo { width: 40px; }	    
     body {
         font-size: 1.3rem;
     }

@@ -325,7 +325,8 @@ input:focus {
   padding-bottom: 10px;
   line-height: 60px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  font-family: "Montserrat", helvetica; }
 
 .section-header h3 {
   padding-bottom: 10px;
@@ -402,10 +403,11 @@ input:focus {
   line-height: 35px; }
 
 .navbar-brand {
-  height: 76px;
   position: relative;
   line-height: 45px;
-  padding-top: 23px; }
+  margin-top: -7px; }
+  .navbar-brand .logo {
+    width: 70px; }
 
 .current a {
   color: #FF954D !important;
@@ -429,13 +431,15 @@ input:focus {
 
 .navbar-toggle {
   border: 0;
-  background-color: #808080;
-  margin-top: 23px; }
+  background-color: #808080; }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
   background-color: #F94C60;
   filter: alpha(opacity=100);
   opacity: 1; }
+
+.navbar-inverse .navbar-toggle {
+  margin-top: 15px; }
 
 /*----  SECTION:  HOME > INTRO AND SHORT MSGS   ----*/
 .video-overlay {
@@ -576,7 +580,8 @@ video {
   padding-left: 20px;
   max-width: 800px;
   margin-bottom: 20px;
-  text-align: left; }
+  text-align: left;
+  font-family: "Montserrat", helvetica; }
 
 /*---------------------------------------
  **   SECTION:  PORTFOLIO          -----
@@ -855,7 +860,8 @@ video {
   margin-top: 20px;
   padding-bottom: 5px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  font-family: "Montserrat", helvetica; }
 
 .stat h6 {
   color: #d1d1d1;
@@ -1303,10 +1309,13 @@ video {
   height: 73px;
   position: relative; }
 
-.feedback-box .quote {
+.icon_small {
   float: left;
   font-size: 45px;
   line-height: 80px; }
+  .icon_small.center {
+    float: none;
+    text-align: center; }
 
 .feedback-box .client-info {
   float: left;
@@ -1404,7 +1413,12 @@ video {
   border: 2px solid #f3f3f3;
   border-radius: 50%;
   width: 75px;
-  height: 75px; }
+  height: 75px;
+  cursor: pointer; }
+  .social li:hover {
+    background: white; }
+    .social li:hover a {
+      color: #FF954D; }
 
 .social li a {
   color: #f3f3f3;
@@ -1412,9 +1426,6 @@ video {
   .social li a i {
     line-height: 75px;
     vertical-align: middle; }
-
-.social li a:hover {
-  color: #FF954D; }
 
 #footer {
   background: #2C3840; }
@@ -1453,6 +1464,8 @@ video {
       color: #3DC9B2;
       text-align: left;
       padding-left: 20px; }
+    .global-footer .copyright p {
+      font-size: 15px; }
   .global-footer p {
     font-size: 22px; }
 
