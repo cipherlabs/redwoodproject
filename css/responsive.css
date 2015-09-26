@@ -1,5 +1,12 @@
 @media (min-width: 1025px) and (max-width: 1199px) {
 	.team-member { min-height: 450px; }
+	.intro {
+		margin-top: 20%;
+		line-height: 3.438rem !important;
+		font-size: 2.813rem;
+	}
+	.intro h1 { font-size: 2.813rem; } 
+	.intro h3 { padding-top: 10px; font-size: 1.5rem; line-height: 2rem;}    	
 }
 @media (min-width: 992px) and (max-width: 1024px) {
      .navbar-right {
@@ -153,9 +160,6 @@
 	}
 	.intro h1 { font-size: 2.813rem; } 
 	.intro h3 { padding-top: 10px; font-size: 1.5rem; line-height: 2rem;}    
-
-	
-
     html {
         font-size: 90%;
     }
@@ -185,12 +189,6 @@
 	}
 	.focus {
 		padding: 10px 0;
-	}
-	.intro {
-	    margin-top: 30%;
-		line-height: 3.438rem !important;
-		font-size: 2.813rem;
-		width: 60%;
 	}
       
       /* ABOUT US */
