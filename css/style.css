@@ -180,6 +180,10 @@ h6 {
   background: #3DC9B2;
   border: 3px solid #3DC9B2; }
 
+#c2:hover {
+  background: #FF954D !important;
+  border: 3px solid #FF954D; }
+
 /*---------------------------------------
  **   COLORS                         -----
 -----------------------------------------*/
