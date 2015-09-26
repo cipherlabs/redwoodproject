@@ -685,7 +685,7 @@ width: -webkit-calc(100% / 4);
 }
 @media screen and (max-width: 1024px) {
 	.cbp-rfgrid li {
-	width: 33.33333333333333%; /* Fallback */
+	width: 33.33333333333333%; 
 width: -webkit-calc(100% / 3);
 	width: calc(100% / 3);
 }
