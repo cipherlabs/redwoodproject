@@ -341,6 +341,13 @@ input:focus {
   font-size: 40px;
   display: inline-block; }
 
+.section-header h5 {
+  padding: 50px 0;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  text-align: justify; }
+
 .section-header h6 {
   font-size: 16px;
   margin-top: 50px; }
@@ -448,6 +455,11 @@ input:focus {
 
 .school_header {
   height: 100%; }
+
+.resources {
+  padding: 100px 0;
+  min-height: 800px;
+  background-image: url(http://basehold.it/i/24/ff0000); }
 
 .school_landing {
   margin-top: 150px; }
