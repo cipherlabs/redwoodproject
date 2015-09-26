@@ -173,6 +173,8 @@ h6 {
 
 .btn:active:focus, .btn:focus {
   background: #3DC9B2; }
+  .btn:active:focus.c1:focus, .btn:active:focus.c1:active:focus, .btn:focus.c1:focus, .btn:focus.c1:active:focus {
+    background: #FF954D; }
 
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
   background: #3DC9B2;
@@ -465,6 +467,10 @@ video {
   z-index: 0;
   width: 40%;
   display: block; }
+  .intro h1 {
+    font-family: "Montserrat", helvetica; }
+  .intro h3 {
+    font-family: "Montserrat", helvetica; }
 
 /* Short Messages */
 .bottom-message-section {
