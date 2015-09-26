@@ -342,7 +342,7 @@ input:focus {
   display: inline-block; }
 
 .section-header h5 {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   max-width: 600px;
   display: block;
   margin: 0 auto;
