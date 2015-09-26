@@ -542,6 +542,8 @@ video {
 	}
 	// a { float: right; }
 }
+.home_schools { padding: 50px; background: #444; color: $light_text; .icon-top { padding: 20px 0; } i { font-size: 40px;} p{ text-align: justify; } }
+.focus.schools { padding-bottom: 0px; }
 .focus-box p { text-align: justify;font-family: $copy;font-weight: 300;padding: 20px; &.no_justify { text-align: left; }}
 
 .focus-box-schools p, .focus-box-schools p:hover {
@@ -586,7 +588,7 @@ video {
 .other-focus-list ul li i {
 	margin-right: 8px;
 }
-
+.redwood_day { background: url(../images/backgrounds/down_arrows.jpg); padding: 100px 0; }
 /*---------------------------------------
  **   SECTION:  SEPARATOR ONE         -----
 -----------------------------------------*/
@@ -778,7 +780,7 @@ width: -webkit-calc(100% / 2);
 	line-height: normal;
 	margin-top: -15px;
 }
-.about-us p {text-align: left;color: $light_text;padding: 5px 10px; }
+.about-us p {text-align: left; color: $light_text;padding: 5px 10px; }
 .about-us .column {
 	margin-bottom: 78px;
 }

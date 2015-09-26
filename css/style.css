@@ -558,6 +558,20 @@ video {
   .focus-box h5 h2, .focus-box h1 h2 {
     font-size: 34px; }
 
+.home_schools {
+  padding: 50px;
+  background: #444;
+  color: #f3f3f3; }
+  .home_schools .icon-top {
+    padding: 20px 0; }
+  .home_schools i {
+    font-size: 40px; }
+  .home_schools p {
+    text-align: justify; }
+
+.focus.schools {
+  padding-bottom: 0px; }
+
 .focus-box p {
   text-align: justify;
   font-family: "Lato", sans-serif;
@@ -614,6 +628,10 @@ video {
 
 .other-focus-list ul li i {
   margin-right: 8px; }
+
+.redwood_day {
+  background: url(../images/backgrounds/down_arrows.jpg);
+  padding: 100px 0; }
 
 /*---------------------------------------
  **   SECTION:  SEPARATOR ONE         -----
