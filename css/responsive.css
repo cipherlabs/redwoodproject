@@ -184,6 +184,12 @@
 		display: inline-block;
 		margin-bottom: 0;
 	}
+  .navbar-inverse .navbar-collapse {
+    background-color: #fff;
+  }  
+  .navbar-inverse .nav > li > a {
+    color: #222;
+  }	
 .navbar-brand	.logo { width: 60px; }	
     /* HOME */
 	.header {
