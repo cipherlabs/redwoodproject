@@ -186,6 +186,7 @@
 	}
   .navbar-inverse .navbar-collapse {
     background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
   }  
   .navbar-inverse .nav > li > a {
     color: #222;
