@@ -100,6 +100,7 @@ $(document).ready(function(){
       itemsTablet: [600,1], //2 items between 600 and 0
       itemsMobile : false, // itemsMobile disabled - inherit from itemsTablet option
       autoPlay: 8000,
+      loop: true
   });
 });
 
